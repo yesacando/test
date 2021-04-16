@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>달력</title>
+    <style media="screen">
+      body{
+        font-family:"돋움";
+        font-size: 12px;
+        color: #444444;
+      }
+      #date{
+        margin:10px 0 0 210px;
+        font-size: 14px;
+      }
+      #date li{
+        display:inline;
+      }
+      #sched_tb1{
+        border-collapse:collapse;
+        border-top:solid 2px #aaaaaa;
+        margin-top:15px;
+      }
+      #sched_tb1 td{
+        border: solid 1px #aaaaaa;
+      }
+      #sched_tb1 tr{
+        height:60px;
+        vertical-align:top;
+      }
+      #sched_tb1 td{
+        width:76px;
+        padding: 5px;
+      }
+      #sched_tb1 tr#day{
+        height:20px;
+        background-color: #f8f9f2;
+        text-align: center;
+        font-weight:bold;
+      }
+      #sched_tb1 .red{
+        color:#ff0000;
+      }
+      #sched_tb1 .blue{
+        color: #0000ff;
+      }
+    </style>
+  </head>
+  <body>
+    <h3><img src="./haksa.png"></h3>
+    <ul id="date">
+      <li><img src="./left.png" width="10px"></li>
+      <li>2021년 4월</li>
+      <li><img src="./right.png" width="10px"></li>
+    </ul>
+    <table id="sched_tb1">
+      <tr id="day">
+        <td><span class="red">일</span></td>
+        <td>월</td>
+        <td>화</td>
+        <td>수</td>
+        <td>목</td>
+        <td>금</td>
+        <td><span class="blue">토</span></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td><span class="blue">3</span></td>
+      </tr>
+
+      <tr>
+        <td><span class="red">4</span></td>
+        <td>5</td>
+        <td>6</td>
+        <td>7<br>특강</td>
+        <td>8</td>
+        <td>9</td>
+        <td><span class="blue">10</span></td>
+      </tr>
+
+      <tr>
+        <td><span class="red">11</span></td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td><span class="blue">17</span></td>
+      </tr>
+
+      <tr>
+        <td><span class="red">18</span></td>
+        <td>19<br>중간고사</td>
+        <td>20<br>중간고사</td>
+        <td>21<br>중간고사</td>
+        <td>22<br>중간고사</td>
+        <td>23<br>중간고사</td>
+        <td><span class="blue">24</span></td>
+      </tr>
+
+      <tr>
+        <td><span class="red">25</span></td>
+        <td>26</td>
+        <td>27<br>MT</td>
+        <td>28<br>MT</td>
+        <td>29</td>
+        <td>30</td>
+        <td></td>
+      </tr>
+
+
+    </table>
+  </body>
+</html>
