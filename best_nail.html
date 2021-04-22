@@ -1,0 +1,282 @@
+<!DOCTYPE html> <!--22061118_최윤정-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>best nail</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: EB garamond;
+        }
+        .wrap{
+            min-width: 700px;
+            max-width: 1600px;
+            margin: 0px auto;
+        }
+        header{
+            /*background-color :white;*/
+            color:black;
+            font-size: 14px;
+        }
+        header h1{
+            margin: 10px 0px;
+        }
+        header h1 span{
+            color: #cfc91e;
+        }
+        header ul{
+            padding:0px;
+            margin:20px 0px;
+        }
+        header li{
+            float:left;
+            list-style: none;
+            padding: 0px 20px;
+            font-weight: bold;
+        }
+        .float_left{
+            float:left;
+        }
+        .float_right{
+            float:right;
+        }
+        .clearfix::after{ /*float left 이상증상 방지*/
+            content:""; /*특정 브라우저 이상증상 해결용*/
+            clear: both; /*float 제거: 양쪽 (둘다)*/
+            display: table; /*특정 브라우저 이상증상 해결용*/
+        }
+        .title{
+            padding: 5px 0px 0px 20px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#A36D6A;
+        }
+        a:active{
+            color: black;
+        }
+        a:focus{
+            color: #A36D6A;
+        }
+        .none{
+            padding:0px;
+            border:0px;
+        }
+        footer{
+          text-align:center;
+        }
+        #main_visual{
+                background-image:url("./hince_nail3.jpg");
+                background-color: black;
+                background-repeat: no-repeat;
+                background-size: 100px auto; /*고정값*/
+                background-size: 50% auto; /*가변값*/
+                background-size: cover;
+                background-position: 0px 0px; /*최상단 고정*/
+                background-position: 50% 50%; /*좌우 중앙, 상하 중앙*/
+                /* auto, contain, cover */
+
+                color: white;
+                text-align: center;
+                padding: 100px;
+            }
+            #main_visual h1{
+                font-size: 55px;
+                letter-spacing: 5px;
+                margin: 0px;
+                width: 800px;
+                margin: 30px auto;
+                font-family: EB garamond
+            }
+            #main_visual h2{
+                font-size: 30px;
+                letter-spacing: 15px;
+            }
+            #main_visual p{
+                font-size: 12px;
+                margin: 0px;
+                font-family: 나눔바른고딕;
+            }
+            #block_img_ul li:last-child{
+                border: none;
+            }
+            #block_img_ul dt{
+                font-weight: bold;
+                margin: 20px 0px;
+            }
+            #block_img_ul dd{
+                margin: 0px;
+            }
+            #block_img_ul{
+                padding: 0px;
+            }
+            #block_img_ul li{
+                float: left;
+                list-style:none;
+                width: 25%;
+            }
+            #block_img_ul li img{
+                width: 100%;
+                display: block;
+            }
+            .content>section{
+                padding: 50px;
+            }
+            .content>section>div{
+                width: 1000px;
+                margin: 0px auto;
+            }
+            .content>section>div>h3{
+                color: #A9BCF5;
+                font-size: 30px;
+            }
+            .content_part{
+                float: left;
+                width: 480px;
+                margin: 0px 10px;
+            }
+            .content_part dl{
+                margin: 0px;
+                font-family: 나눔바른고딕;
+            }
+            .content_part dd{
+                margin:0px;
+                text-align: center;
+                font-family: 나눔바른고딕;
+                font-size: 15px;
+            }
+            .content_part dt{
+                font-weight: bold;
+                font-size: 20px;
+                margin: 10px 0px;
+                text-align: center;
+                font-family: 나눔바른고딕;
+            }
+            footer{
+                color: black;
+                margin-left: 15px;
+                font-size: 9px;
+            }
+            footer ul{
+                padding: 0px;
+                color:#A9BCF5;
+            }
+            footer ul li{
+                list-style: none;
+                float: left;
+                margin-right: 10px;
+                color:#A9BCF5;
+            }
+            .short_line{
+                border-top: solid 1px #A36D6A ;
+                width: 1500px;
+            }
+
+      </style>
+  </head>
+  <body>
+    <div class="wrap">
+        <header class="clearfix">
+            <!-- div, span 의미없이 공간분할 -->
+            <h1 class="float_left"><a href="./index.html"><img class="title" src="./hince_black.png" width="60px"></a></h1>
+            <nav class="float_right">
+                <ul class="clearfix">
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./best_nail.html">BEST NAIL</a></li>
+                    <li><a href="https://hince.co.kr/category/nail/72" target="blank">STORE</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main_visual">
+                <h1>
+                    hince
+                </h1>
+                <h2>BEST NAIL</h2>
+                <p>독특하면서도 다채로운 컬러감의<br>빌더블(Buildable)네일</p>
+            </div>
+
+            <section>
+                <ul id="block_img_ul" class="clearfix">
+                  <li><img src="./unstain_1.jpg" onmouseover="this.src='unstain_hand.jpg'" onmouseout="this.src='unstain_1.jpg'"></li>
+                  <li><img src="./walkonair_1.jpg" onmouseover="this.src='walkonair_hand.jpg'" onmouseout="this.src='walkonair_1.jpg'"></li>
+                  <li><img src="./joyful_1.jpg" onmouseover="this.src='joyful_hand.jpg'" onmouseout="this.src='joyful_1.jpg'"></li>
+                  <li><img src="./welcoming_1.jpg" onmouseover="this.src='welcoming_hand.jpg'" onmouseout="this.src='welcoming_1.jpg'"></li>
+                </ul>
+            </section>
+
+
+            <div class="content">
+            <section>
+                <div class="clearfix">
+                    <div class="content_part">
+                        <img src="./unstain_2.jpg" width="470px">
+                        <dl>
+                            <dt>글로우 업 네일 컬러 ｜ 언스테인드</dt>
+                            <dd>
+                                풍부한 광택감과 다채로운 컬러 레이어링이 일상 속 즐거움을 선사합니다.<br>
+                                브라운 언더톤의 투명한 블랙 컬러가 순수한 순간을 마주하게 합니다.<br><br>
+                                12000원
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="content_part">
+                        <img src="./walkonair.jpg" width="470px">
+                        <dl>
+                            <dt>글로우 업 네일 컬러 ｜ 워크 온 에어</dt>
+                            <dd>
+                              풍부한 광택감과 다채로운 컬러 레이어링이 일상 속 즐거움을 선사합니다.<br>
+                              투명하게 빛나는 그레이 블루 컬러가 기분 좋은 설렘을 선사합니다.<br><br>
+                              12000원
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="content_part">
+                        <img src="./joyful.jpg" width="470px">
+                        <dl>
+                            <dt>글로우 업 네일 컬러 ｜ 조이풀</dt>
+                            <dd>
+                                풍부한 광택감과 다채로운 컬러 레이어링이 일상 속 즐거움을 선사합니다.<br>
+                                오렌지가 섬세하게 가미된 투명한 옐로우 컬러가 즐거움을 일깨우게 합니다.<br><br>
+                                12000원
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="content_part">
+                        <img src="./welcoming.jpg" width="470px">
+                        <dl>
+                            <dt>글로우 업 네일 컬러 ｜ 웰커밍</dt>
+                            <dd>
+                                풍부한 광택감과 다채로운 컬러 레이어링이 일상 속 즐거움을 선사합니다.<br>
+                                한층 더 깊어진 뮤티드 브릭 컬러가 당신 안의 따뜻한 면모를 드러나게 합니다.<br><br>
+                                12000원
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+              </<section>
+            </div>
+
+         <footer>
+
+           <div class="short_line"></div>
+           <p>VIVAWAVE Co.,Ltd ｜ CEO.Heo Jaeseok<br>
+             Business Registration No.632-88-00936<br>
+             Contact.1644-7161 ｜ Fax.02-6008-2717<br>
+             E-mail.cs@vivawae.co.kr ｜ Personal Information Manager. Heo Jaeseok<br>
+             © 2020 VIVAWAVE Co.,Ltd. All rights reserved</p>
+
+        </footer>
+
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html> <!--22061118_최윤정-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hince</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: EB garamond;
+        }
+        .wrap{
+            min-width: 700px;
+            max-width: 1600px;
+            margin: 0px auto;
+        }
+        header{
+            /*background-color :white;*/
+            color:black;
+            font-size: 14px;
+        }
+        header h1{
+            margin: 10px 0px;
+        }
+        header h1 span{
+            color: #cfc91e;
+        }
+        header ul{
+            padding:0px;
+            margin:20px 0px;
+        }
+        header li{
+            float:left;
+            list-style: none;
+            padding: 0px 20px;
+            font-weight: bold;
+        }
+        .float_left{
+            float:left;
+        }
+        .float_right{
+            float:right;
+        }
+        .clearfix::after{ /*float left 이상증상 방지*/
+            content:""; /*특정 브라우저 이상증상 해결용*/
+            clear: both; /*float 제거: 양쪽 (둘다)*/
+            display: table; /*특정 브라우저 이상증상 해결용*/
+        }
+        img{
+            padding: 5px 0px 0px 20px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#A36D6A;
+        }
+        a:active{
+            color: black;
+        }
+        a:focus{
+            color: #A36D6A;
+        }
+        .none{
+            padding:0px;
+            border:0px;
+        }
+        footer{
+          text-align:center;
+        }
+        #main_visual{
+                background-image:url("./hince2.gif");
+                background-color: black;
+                background-repeat: no-repeat;
+                background-size: 100px auto; /*고정값*/
+                background-size: 50% auto; /*가변값*/
+                background-size: cover;
+                background-position: 0px 0px; /*최상단 고정*/
+                background-position: 50% 50%; /*좌우 중앙, 상하 중앙*/
+                /* auto, contain, cover */
+
+                color: white;
+                text-align: center;
+                padding: 100px;
+            }
+            #main_visual h2{
+                font-size: 55px;
+                letter-spacing: 5px;
+                margin: 0px;
+                width: 800px;
+                margin: 280px auto;
+                font-family: EB garamond
+            }
+            #main_visual p{
+                font-size: 14px;
+                margin: 0px;
+
+            }
+
+
+
+      </style>
+  </head>
+  <body>
+    <div class="wrap">
+        <header class="clearfix">
+            <!-- div, span 의미없이 공간분할 -->
+            <h1 class="float_left"><a href="./index.html"><img src="./hince_black.png" width="60px"></a></h1>
+            <nav class="float_right">
+                <ul class="clearfix">
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./best_nail.html">BEST NAIL</a></li>
+                    <li><a href="https://hince.co.kr/category/nail/72" target="blank">STORE</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main_visual">
+                <h2>
+                    hince <br> own your moment
+                </h2>
+            </div>
+
+  </body>
+</html>
